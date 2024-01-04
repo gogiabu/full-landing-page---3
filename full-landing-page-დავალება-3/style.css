@@ -1,0 +1,1501 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+/*ტექსტის სტილები*/
+@font-face {
+    font-family: "Lato";
+    src: url("Lato-Regular.ttf");
+}
+@font-face {
+    font-family: "Nunito";
+    src: url("Nunito-Regular.ttf");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "Noto Serif";
+    src: url("NotoSerif-Regular.ttf");
+}
+/*ტექსტის სტილების დასასრული*/
+/*საიტის პირველი მუქი ზოლი*/
+.container{
+    width: 100%;
+    height: 80px;
+    background-color: var(--Neutral, #0A0F29);
+}
+.line1{
+    margin: auto;
+    width: 1442px;
+    height: 80px;
+    background-color: var(--Neutral, #0A0F29);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50.07px;
+    padding-right: 50.07px;
+}
+.box1{
+    width: 260.361px;
+    height: 69.333px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+.imagebitcoin{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 14.5px;
+}
+.textbtc{
+    margin-top: 22.5px;
+    margin-left: 10px;
+    color: var(--Surface, #FFF);
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+}
+.textnumber{
+    margin-top: 29.5px;
+    margin-left: 15px;
+    color: var(--Surface, #FFF);
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+#textnumber2{
+    color: #1DEA4A;
+}
+
+#textnumber4{
+    color: #1DEA4A;
+}
+#textnumber5{
+    margin-left: 18px;
+}
+#textnumber6{
+    color: #1DEA4A;
+    margin-left: 11px;
+}
+#textmatic{
+    margin-left: 7px;
+}
+#textnumber8{
+    margin-left: 21px;
+    color: #f00;
+}
+#textusdt{
+    margin-left: 7px;
+}
+#textnumber10{
+    color: #1DEA4A;
+    margin-left: 18px;
+}
+/*საიტის პირველი მუქი ზოლის დასასრული*/
+/*--მთავარი გვერდის მენიუ,მეორე ნაწილი (ზოლი)*/
+.container2{
+    width: 100%;
+    height: 650px;
+    background-color: var(--Green, #098C26);
+}
+.line2{
+    margin: auto;
+    width: 1442px;
+    height: 650px;
+    background-color: var(--Green, #098C26);
+}
+/*მენიუს ზოლი*/
+.section1{
+    width: 1442px;
+    height: 90px;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box2{
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.textcoin{
+    margin:auto;
+    color: var(--Surface, #FFF);
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#textdash{
+    font-size: 40px;
+}
+.box3{
+    width: 620px;
+    height: 70px;
+    padding: 20px 18px 20px 17px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+}
+.textmenu{
+    margin: auto;
+    color: var(--Surface, #FFF);
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+}
+.box4{
+    width: 1.5px;
+    height: 50px;
+    background-color: #FFF;
+}
+.box5{
+    width: 430px;
+    height: 70px;
+    display: flex;
+    padding: 20px 40px 20px 15px;
+    align-items: flex-start;
+    gap: 40px;
+}
+/*მენიუს ზოლის დასასრული*/
+/*ტექსტური ნაწილი და შესვლის ღილაკები*/
+.section2{
+    display: flex;
+}
+.box6{
+    margin-top: 60px;
+    margin-left: 68px;
+    width: 675px;
+    height: 460px;
+}
+.textbox{
+    width: 630px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texth1{
+    margin: auto;
+    color: var(--Surface, #FFF);
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+}
+.textbox2{
+    margin-top: 30px;
+    width: 675px;
+    height: 190px;
+}
+.paragrafi{
+    margin-top: 0;
+    color: var(--Surface, #FFF);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+}
+.boxbutton{
+    margin-top: 55px;
+    width: 640px;
+    height: 65px;
+    display: flex;
+    gap: 40px;
+}
+.button{
+   width: 300px;
+   height: 65px;
+   border-radius: 20px;
+   background: var(--Orange, #F7931A);
+   border: none;
+   color: #FFF;
+   font-family: Nunito;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+}
+#button2{
+    color: var(--Neutral, #0A0F29);
+    background-color: var(--Surface, #FFF);
+}
+/*ტექსტური ნაწილი და შესვლის ღილაკების დასასრული*/
+/*მენიუს სურათი*/
+.imageboy{
+    width: 500px;
+    height: 500px;
+    margin-top: 35px;
+    margin-left: 108px;
+}
+/*--მთავარი გვერდის მენიუ,მეორე ნაწილის დასასრული (ზოლი)*/
+/*მთავარი გვერდის შემდეგი სივრცე*/
+.container3{
+    margin: auto;
+    width: 1442px;
+    height: 4249px;
+}
+/*ტექსტური ნაწილები*/
+.title{
+    margin: auto;
+    margin-top: 60px;
+    width: 1420px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titletext{
+    color: var(--Blue, #2F66F6);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+}
+#title2{
+    width: 1200px;
+    height: 100px;
+    margin-top: 50px;
+}
+.titletext2{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+}
+/*Security,Insurance და Best Industry Practices ბოქსები*/
+.section3{
+    margin-top: 57px;
+    width: 1380px;
+    height: 215px;
+    padding: 10px;
+    background-color: #F5F5F5;
+    display: flex;
+}
+.imagesecurity{
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 0;
+}
+.securitybox{
+    width: 310px;
+    height: 165px;
+    margin-left: 30px;
+}
+.securitytitle{
+    width: 150px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.securityh1{
+    color: var(--Blue, #2F66F6);
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+#securitytitle2{
+    width: 310px;
+    height: 110px;
+    margin-top: 10px;
+}
+.securitytext{
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+.imageinsurance{
+    width: 89.33px;
+    height: 90px;
+    margin-left: 5px;
+}
+.securitybox2{
+    margin-left: 29.78px;
+    width: 280.893px;
+    height: 195px;
+}
+#securitytitle3{
+    width: 158.809px;
+}
+#securitytitle4{
+    width: 280.893px;
+    height: 140px;
+    margin-top: 10px;
+}
+#imagebest{
+    margin-left: 5px;
+}
+.securitybox3{
+    margin-left: 15px;
+    width: 370px;
+    height: 195px;
+}
+#securitytitle5{
+    width: 370px;
+    height: 50px;
+}
+#securitytitle6{
+    width: 310px;
+    height: 140px;
+    margin-top: 5px;
+}
+/*Security,Insurance და Best Industry Practices ბოქსების დასასრული*/
+/*Market Movers-ის ნაწილი*/
+.line4{
+    margin-top: 47px;
+    width: 1440px;
+    height: 800px;
+    background-color: #F5F5F5;
+    padding: 17.5px 10px;
+}
+.marketmovers{
+    margin: auto;
+    margin-top: 30px;
+    width: 492px;
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textmarketmovers{
+    color: var(--Blue, #2F66F6);
+    font-family: Noto Serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+}
+.section5{
+    margin: auto;
+    margin-top: 44px;
+    width: 1010px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.buysell{
+    margin-top: 4px;
+    width: 200px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: var(--Green, #098C26);
+    color: var(--Surface, #FFF);
+    font-family: Nunito;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+#sell{
+    background: var(--Red, #CD0000);
+}
+.blok{
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #F0F0F0;
+    box-shadow: 4px 10px 10px 10px rgba(0, 0, 0, 0.50);
+    display: flex;
+}
+.imagebitcoin2{
+    width: 60px;
+    height: 60px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.bitcointext{
+    color: var(--Neutral, #0A0F29);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 23px;
+    margin-left: 43px;
+}
+.charcho{
+    width: 1348px;
+    height: 460px;
+    margin-top: 44px;
+    margin-left: 37px;
+    display: flex;
+}
+.about{
+    width: 835px;
+    height: 450px;
+    padding-right: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.aboutcharcho{
+    width: 215px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.abouttext{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+}
+.abouttextbox{
+    margin-top: 35px;
+    width: 810px;
+    height: 365px;
+    padding: 3px 10px;
+}
+.abouttext2{
+    margin: 0;
+    color: #000;
+    font-family: Nunito;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+}
+#readmore{
+    color: var(--Blue, #2F66F6);
+    text-decoration: none;
+}
+.aboutbox{
+    margin-top: 40px;
+    margin-left: 35px;
+    width: 420px;
+    height: 420px;
+    padding: 10px;
+}
+.aboutblock{
+    width: 400px;
+    height: 400px;
+    border: 0.25px solid #000;
+    background: #FCC98A;
+    box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.50);
+}
+.holdings{
+    margin-top: 44.19px;
+    margin-left: 14px;
+    width: 371px;
+    height: 39.448px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.holdingstext{
+    color: var(--Red, #CD0000);
+    text-align: center;
+    font-family: Noto Serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+#holdings2{
+    width: 200px;
+    height: 59.172px;
+    margin-top: 47.34px;
+    margin-left: 99px;
+}
+.holdingstext2{
+    color: var(--Neutral, #0A0F29);
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+}
+#holdings3{
+    width: 190px;
+    height: 34.517px;
+    margin-top: 39.45px;
+    margin-left: 95px;
+}
+.holdingstext3{
+    color: var(--Neutral, #0A0F29);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+}
+#holdings4{
+    width: 124px;
+    height: 29.586px;
+    margin-top: 43.41px;
+    margin-left: 107px;
+}
+.holdingstext4{
+    color: var(--Green, #098C26);
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+.arrowimage{
+    width: 35px;
+    height: 50px;
+    margin-top: 158px;
+    margin-left: 23px;
+}
+/*Watchlist-ის ნაწილი*/
+.line5{
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 13.5px;
+    width: 1380px;
+    height: 840px;
+    background-color: #F5F5F5;
+}
+#wishlist{
+    width: 307px;
+}
+.wishlistline{
+    margin-top: 39px;
+    margin-left: 80px;
+    width: 1240px;
+    height: 52.5px;
+    display: flex;
+}
+.wishlist1{
+    width: 350px;
+    height: 52.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.wishlisttext{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+}
+.arrow3image{
+    width: 30px;
+    height: 15px;
+    margin-top: 35.5px;
+    margin-left: 10px;
+}
+.addimage{
+    width: 40px;
+    height: 40px;
+    margin-top: 6.25px;
+    margin-left: 540px;
+}
+#addcoin{
+    margin-left: 20px;
+    width: 250px;
+}
+#wishlisttext2{
+    color: #9B9B9B;
+}
+.wishlistcharcho{
+    display: flex;
+    width: 1286px;
+    height: 560px;
+    margin-top: 34.5px;
+    margin-left: 24px;
+}
+/*5 კრიპტო ვალუტა*/
+.wishlistbox{
+    width: 755px;
+    height: 560px;
+}
+.list1{
+    width: 755px;
+    height: 100px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.numberbox{
+    margin-top: 23px;
+    width: 30px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.number1{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+}
+.listbox{
+    display: flex;
+    width: 700px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.50);
+    margin-left: 25px;
+}
+.imageb{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+}
+.listtext{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 81px;
+    height: 80px;
+}
+#btc{
+    width: 70px;
+    height: 40px;
+}
+#btc2{
+    margin-top: 20px;
+    width: 81px;
+    height: 20px;
+}
+.btctext2{
+    color: #959595;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+.btctext{
+    color: var(--Neutral, #0A0F29);
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+.graphimage{
+    margin-top: 12.31px;
+    margin-left: 64px;
+    width: 300px;
+    height: 75px;
+}
+.listnumber{
+    width: 145px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 23px;
+}
+#number1{
+    width: 145px;
+    height: 25px;
+}
+.numberstyle{
+    color: #000;
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+}
+.number2{
+    margin-top: 15px;
+    margin-left: 73px;
+    width: 72px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.numberstyle2{
+    color: var(--Green, #098C26);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+#imageethereum{
+    margin-top: 22.5px;
+}
+#listtext2{
+    width: 116px;
+}
+#eth{
+    width: 72px;
+    height: 40px;
+}
+#eth2{
+    margin-top: 20px;
+    width: 116px;
+    height: 20px;
+}
+#graphimage2{
+    margin-left: 29px;
+}
+#listnumber2{
+    margin-left: 41px;
+    width: 123px;
+}
+#number3{
+    width: 123px;
+    height: 25px;
+}
+#number4{
+    margin-left: 51px;
+}
+#imagebnb{
+    margin-top: 22.5px;
+}
+#listtext3{
+    width: 162px;
+}
+#bnb{
+    width: 76px;
+    height: 40px;
+}
+#bnb2{
+    margin-top: 20px;
+    width: 162px;
+    height: 20px;
+}
+#graphimage3{
+    margin-left: -15px;
+}
+#listnumber3{
+    margin-left: 60px;
+    width: 105px;
+}
+#number5{
+    width: 105px;
+    height: 25px;
+}
+#number6{
+    width: 85px;
+    margin-left: 20px;
+}
+#imagepolygon{
+    margin-top: 22px;
+}
+#listtext4{
+    width: 116px;
+}
+#matic{
+    width: 116px;
+    height: 40px;
+}
+#matic2{
+    margin-top: 20px;
+    width: 96px;
+    height: 20px;
+}
+.graphred{
+    width: 300px;
+    height: 75px;
+    margin-left: 34px;
+    margin-top: 12.31px;
+}
+#listnumber4{
+    width: 105px;
+    margin-left: 60px;
+}
+#number7{
+    width: 105px;
+    height: 25px;
+}
+#number8{
+    margin-left: 23px;
+    width: 82px;
+}
+#numberstylered{
+    color: var(--Red, #CD0000);
+}
+#imagetether{
+    margin-top: 22px;
+}
+#listtext5{
+    width: 140px;
+}
+#ustd{
+    width: 95px;
+    height: 40px;
+}
+#ustd2{
+    margin-top: 20px;
+    width: 140px;
+    height: 20px;
+}
+#imageustd{
+    margin-left: 12px;
+}
+#listnumber5{
+    width: 88px;
+    margin-left: 75px;
+}
+#number9{
+    width: 88px;
+    height: 25px;
+}
+#number10{
+    width: 77px;
+    margin-left: 11px;
+}
+/*5 კრიპტო ვალუტის დასასრული*/
+.wishlistbox2{
+    width: 475px;
+    height: 330px;
+    padding: 31px 25px;
+    background-color: rgba(154, 255, 176, 0.50);
+    margin-top: 100.98px;
+    margin-left: 56px;
+}
+.charcho1{
+    width: 425px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.textbox3{
+    width: 250px;
+    height: 196px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.logo{
+    width: 160px;
+    height: 200px;
+    margin-left: 15px;
+}
+.text3{
+    color: #222835;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+.charcho2{
+    margin-top: 20px;
+    width: 226px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.registernow{
+    width: 226px;
+    height: 48px;
+    padding: 6px 17px;
+    border-radius: 5px;
+    background-color: #01AB6C;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+.group{
+    margin-left: 16px;
+}
+/*Watchlist-ის ნაწილის დასასრული*/
+/*დიაგრამა P2P Trade*/
+.line6{
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 25px;
+    width: 1380px;
+    height: 250px;
+    background-color: var(--Neutral, #0A0F29);
+}
+.candlebox{
+    margin: auto;
+    display: flex;
+    width: 1330px;
+    height: 130px;
+}
+#greencandle{
+    margin-left: 0;
+}
+.green{
+    margin-left: 15px;
+    width: 30px;
+    height: 99.237px;
+}
+.red{
+    margin-top: 9.92px;
+    margin-left: 15px;
+    width: 30px;
+    height: 119.084px;
+}
+.green2{
+    margin-left: 15px;
+    margin-top: 10.92px;
+    width: 30px;
+    height: 119.084px;
+}
+.red2{
+    margin-left: 15px;
+    width: 30px;
+    height: 99.237px;
+}
+.candletextbox{
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 420px;
+    height: 80px;
+    padding: 10px 95px;
+    border-radius: 10px;
+    border: 1.5px solid #000;
+    background-color: var(--Surface-Dim, #F8F9FB);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.candletext{
+    color: var(--Blue, #2F66F6);
+    font-family: Montserrat;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+}
+#greencandle2{
+    margin-left: 20px;
+}
+#textbox4{
+    margin: auto;
+    margin-top: 36px;
+    width: 1270px;
+    height: 40px;
+}
+.text4{
+    color: var(--Surface, #FFF);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+/*პერსონების ბოქსი*/
+.line7{
+    margin: auto;
+    width: 1380px;
+    height: 750px;
+    background-color: #F5F5F5;
+}
+.section7{
+    margin-top: 19px;
+    margin-left: 46px;
+    width: 1266px;
+    height: 46px;
+    display: flex;
+}
+.adventiser{
+    width: 96px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.adventisertext{
+    color: #949494;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.charcho7{
+    margin-top: 3.61px;
+    margin-left: 326px;
+    width: 195px;
+    height: 37px;
+    padding: 5px;
+    display: flex;
+}
+#price{
+    width: 44px;
+    height: 22px;
+    margin: auto;
+}
+#highest{
+    width: 130px;
+    height: 25px;
+    background: linear-gradient(180deg, #FFEAD1 0%, #F5E2C9 100%);
+    margin-left: 11px;
+    margin: auto;
+}
+.highesttext{
+    color: var(--Orange, #F7931A);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+#limit{
+    margin-top: 10px;
+    margin-left: 56.8px;
+    width: 135px;
+    height: 26px;
+}
+#payment{
+    margin-top: 10px;
+    margin-left: 165px;
+    width: 80px;
+    height: 26px;
+}
+.charcho8{
+    width: 128px;
+    height: 46px;
+    padding: 10px 5px;
+    margin-left: 90px;
+    display: flex;
+}
+#trade{
+    margin: auto;
+    width: 51px;
+    height: 26px;
+}
+#fee{
+    width: 55px;
+    height: 24.671px;
+    margin-top: 0.391px;
+    margin-left: 12px;
+}
+.feetext{
+    color: var(--Green, #098C26);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.charcho9{
+    width: 1320px;
+    height: 630px;
+    margin: auto;
+    margin-top: 52px;
+}
+.item1{
+    width: 1320px;
+    height: 150px;
+    margin-bottom: 10px;
+    background-color: #ECECEC;
+    display: flex;
+}
+.personbox{
+    margin-top: 34px;
+    margin-left: 20px;
+    width: 60px;
+    height: 110px;
+}
+.person1{
+    width: 50px;
+    height: 50px;
+}
+.like1{
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+.information{
+    width: 319px;
+    height: 117px;
+    margin-top: 27px;
+    margin-left: 10px;
+}
+.name1{
+    width: 141px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.nametext{
+    color: var(--Blue, #2F66F6);
+    font-family: Nunito;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+}
+.infobox{
+    margin-top: 18px;
+    width: 319px;
+    height: 26px;
+    display: flex;
+}
+.info1{
+    width: 36px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.infonumber{
+    color: var(--Neutral, #0A0F29);
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+#info2{
+    width:58px;
+    margin-left: 10px;
+}
+#info3{
+    width: 84px;
+    margin-left: 16px;
+}
+#info4{
+    width: 100px;
+    margin-left: 15px;
+}
+.done{
+    width: 72px;
+    height: 26px;
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sveti3{
+    width: 131px;
+    height: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 33px;
+    margin-top: 42px;
+}
+.infonumber2{
+    color: var(--Neutral, #0A0F29);
+    font-family: Nunito;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+.info5{
+    width: 42px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 51px;
+    margin-left: 15px;
+}
+.info6{
+    width: 100px;
+    height: 63px;
+    margin-top: 49px;
+    margin-left: 43px;
+}
+.available{
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.availabletext{
+    color: #949494;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.limit{
+    margin-top: 13px;
+    width: 50px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.info7{
+    width: 146px;
+    height: 61px;
+    margin-left: 10px;
+    margin-top: 51px;
+}
+.numberbtc{
+    width: 134px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.numberdolar{
+    margin-top: 9px;
+    width: 146px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.abcbank{
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(180deg, #FFEAD1 0%, #F5E2C9 100%);
+    color: var(--Orange, #F7931A);
+    border: none;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 63px;
+    margin-left: 41px;
+}
+.buttonbtc{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: var(--Red, #CD0000);
+    color: var(--Surface, #FFF);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+#name2{
+    width: 151px;
+}
+#name3{
+    width: 204px;
+}
+/*Get In Touch-ის ნაწილი*/
+.line8{
+    width: 1380px;
+    height: 840px;
+    background-color: #F5F5F5;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 27px;
+}
+#getintouch{
+    width: 412px;
+    margin: auto;
+}
+.textbox8{
+    width: 1055px;
+    height: 120px;
+    margin: auto;
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.textline8{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+.separator{
+    width: 150px;
+    height: 6px;
+    margin-top: 32px;
+    margin-left: 615px;
+}
+.box10{
+    width: 1330px;
+    height: 500px;
+    margin-top: 25px;
+    margin-left: 20px;
+    display: flex;
+}
+.map{
+    width: 600px;
+    height: 500px;
+}
+.inputbox{
+    width: 700px;
+    height: 450px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.input1{
+    width: 700px;
+    height: 60px;
+    border-radius: 15px;
+    border: 2px solid #2A27BB;
+    background-color: var(--Surface, #FFF);
+    margin-bottom: 30px;
+    padding:16px 33px;
+}
+.input1::placeholder{
+    color: #7B7A7A;
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    transform: translateY(5px);
+}
+#input2{
+    width: 700px;
+    height: 270px;
+}
+#input2::placeholder{
+    transform: translateY(-7px);
+}
+/*საიტის ბოლო მუქი ნაწილი*/
+.container4{
+    width: 100%;
+    height: 360px;
+    background-color: var(--Neutral, #0A0F29);
+}
+.line9{
+    margin: auto;
+    width: 1440px;
+    height: 360px;
+    background-color: var(--Neutral, #0A0F29);
+    display: flex;
+}
+.box11{
+    width: 265px;
+    height: 312px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.logo3{
+    width: 255px;
+    height: 225px;
+    margin-bottom: 18.81px;
+}
+.coinbox{
+    width: 225px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.coindash{
+    color: var(--Surface, #FFF);
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+.box12{
+    width: 480px;
+    height: 286px;
+    margin-top: 20px;
+    margin-left: 78px;
+}
+.addressbox{
+    display: flex;
+    width: 480px;
+    height: 85px;
+    padding: 10px;
+}
+.location{
+    width: 48.629px;
+    height: 50px;
+    margin-top: 4px;
+}
+#address{
+    width: 402.718px;
+    height: 65px;
+    margin-left: 9.65px;
+}
+.addresstext{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+}
+.phonebox{
+    display: flex;
+    margin-top: 24px;
+    width: 480px;
+    height: 64px;
+    padding: 7px;
+}
+.callimage{
+    width: 50px;
+    height: 50px;
+}
+#phone{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 373.016px;
+    height: 30px;
+}
+#emailbox{
+    height: 70px;
+    margin-top: 43px;
+}
+#email{
+    width: 381.449px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box13{
+    width: 483px;
+    height: 323px;
+    margin-top: 26px;
+    margin-left: 58px;
+}
+.logoebi{
+    width: 461px;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    margin-left: 13px;
+}
+.instagram{
+    width: 68px;
+    height: 50px;
+}
+#textbox13{
+    width: 483px;
+    height: 178px;
+    padding: 3px 5px;
+    margin-top: 33px;
+}
+.text13{
+    color: #FFF;
+    text-align: justify;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+}
+#textbox14{
+    width: 250px;
+    height: 35px;
+    margin-top: 27px;
+    margin-left: 219px;
+}
